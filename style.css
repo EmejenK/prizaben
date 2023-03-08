@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    border-width: 0;
+    background-color: greenyellow;
+}
+
+.nav h3 {
+    margin-left: 10px;
+    font-size: 27px;
+    cursor: pointer;
+    padding-top: 4px;
+    color: #8c1aff;
+}
+
+.nav ul {
+    padding: 10px;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.nav ul li a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: maroon;
+}
+
+.nav ul li a:hover {
+    border: 0 solid #8c1aff;
+    background-color: #8c1aff;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.adv {
+    font-size: 20px;
+    color: #ff66d9;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.access {
+    border: 0 solid red;
+    height: 40%;
+    width: 100%;
+    background-color: #ffffcc;
+    margin-top: 20px;
+}
+
+.access h4 {
+    padding-left: 10px;
+    color: #8c1aff;
+    background-color: #4dff4d;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.pics img {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+}
+
+
+/* Not sure about this ---------------------------------------------------------*/
+
+@media(max-width:1250px) {
+    .container-fluid {
+        width: 300px;
+    }
+}
+
+@media(max-width:1110px) {
+    .container-fluid {
+        width: 70%;
+    }
+}
+
+@media(max-width:550px) {
+    .container-fluid {
+        width: 80%;
+    }
+}
+
+@media(max-width:320px) {
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+
+/*-----------Footer------------*/
+
+.footer {
+    border: 1px solid black;
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+    background-color: #392714;
+}
+
+.prizaben {
+    color: white;
+    display: flex;
+    background-color: #1e1e2f;
+}
+
+.prizaben .new {
+    padding-left: 40px;
+}
+
+.new h4 {
+    color: #00b3b3;
+}
+
+.new a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.let-us {
+    padding-top: 10px;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+.let-us h4 {
+    color: white;
+}
+
+.abt {
+    padding-left: 50px;
+}
+
+.let-us li a {
+    text-decoration: none;
+    color: #ff99cc;
+}
+
+.join-payment {
+    display: flex;
+}
+
+.join-payment .join-us {
+    font-size: 27px;
+    padding-left: 20px;
+}
+
+.join-us h4 {
+    color: white;
+}
+
+.join-us a {
+    display: block;
+    padding-top: 7px;
+}
+
+.join-us a:hover {
+    color: #e6e600;
+    transition: 0.7s;
+}
+
+.join-payment .payment {
+    font-size: 27px;
+    padding-left: 80px;
+}
+
+.payment h4 {
+    color: white;
+}
+
+.payment a {
+    display: block;
+    padding-top: 7px;
+}
+
+.payment a:hover {
+    color: #e6e600;
+    transition: 0.7s;
+}
+
+
+/*-----------Policy Terms and Conditions---------------------*/
+
+.copy-terms {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+.copy {
+    color: #004080;
+    font-weight: 40px;
+}
+
+
+/*----------------FARM.HTML--------------*/
+
+.body {
+    background-color: #ffffcc;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.heading h2 {
+    color: #4dff4d;
+}
+
+.heading h5 {
+    color: black;
+    font-size: 22px;
+    padding-top: 17px;
+}
+
+.farm-container {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.farm-pics img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.farm-pics {
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+    display: inline-block;
+}
+
+.farm-pics h5 {
+    color: crimson;
+    font-size: 20px;
+}
+
+.farm-pics p {
+    color: green;
+    font-weight: bold;
+}
+
+.track {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tank {
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.bricks {
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+@media(max-width:1250px) {
+    .farm-pics {
+        width: 300px;
+    }
+}
+
+@media(max-width:1110px) {
+    .farm-pics {
+        width: 70%;
+    }
+}
+
+@media(max-width:550px) {
+    .farm-pics {
+        width: 80%;
+    }
+}
+
+@media(max-width:320px) {
+    .farm-pics {
+        width: 100%;
+    }
+}
+
+
+/*---------------Contact Us Page ---------------------------------------------------*/
+
+.cont {
+    border: 1px solid #f2f2f2;
+    margin-top: 40px;
+    background-color: #00b300;
+    margin-left: 0;
+    margin-right: 0;
+    width: 99%;
+    height: 110px;
+}
+
+.cont .cont-us {
+    padding-top: 22px;
+}
+
+.cont-us h1 {
+    text-align: center;
+    background-color: red;
+}
+
+.call-border {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.call-details {
+    border: 0 solid blueviolet;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #b3ffb3;
+}
+
+.call-details p {
+    padding-top: 10px;
+    font-style: oblique;
+}
+
+.call-details h3 {
+    padding-top: 17px;
+    color: cornflowerblue;
+}
+
+.call-details h5 {
+    padding-top: 20px;
+}
+
+
+/*-----------------ABOUT US-------------------------------------------------------*/
+
+.about-us {
+    text-align: center;
+    padding-top: 20px;
+    color: #ff471a;
+}
+
+.about-details {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.about-details li {
+    color: #1e1e2f;
+    padding-left: 40px;
+}
+
+
+/*-------------Register page------------------------*/
+
+.reg {
+    color: black;
+    padding-top: 27px;
+    text-align: center;
+}
+
+.frm {
+    border: 0px solid red;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #33ff33;
+    margin-left: 30%;
+}
+
+.question {
+    margin-left: 30%;
+    padding-top: 20px;
+}
+
+
+/*-------------Login page------------------------*/
+
+.log {
+    color: black;
+    padding-top: 27px;
+    text-align: center;
+}
+
+.frm2 {
+    border: 0px solid red;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #33ff33;
+    margin-left: 30%;
+}
+
+.question2 {
+    margin-left: 30%;
+    padding-top: 20px;
+}
